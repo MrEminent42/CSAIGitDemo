@@ -1,7 +1,7 @@
 def repeat():
-        word = input('Enter some text: ')
+        word = input('Enter a few words: ')
         print(word)
 
 
-print("Welcome to CSAI!")
+print("Welcome to CSAI spring quarter!")
 repeat()
