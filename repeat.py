@@ -1,6 +1,10 @@
 def repeat():
-        word = input('Enter a few words: ')
-        print(word)
+        while True:
+                word = input('Enter a few words: ')
+                if word == "exit": 
+                        break
+                print(word)
+
 
 
 print("Welcome to CSAI spring quarter!")
