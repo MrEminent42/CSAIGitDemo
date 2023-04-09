@@ -1,7 +1,7 @@
 def repeat():
 
         while True:
-                word = input('Enter some text: ')
+                word = input('ENTER WORDS NOW: ')
                 if word == "exit": 
                         break
                 print(word)
